@@ -1,4 +1,4 @@
-var ENGLISH_WORDS = [
+export const ENGLISH_WORDS = [
   "their",
   "would",
   "about",
@@ -1613,5 +1613,4 @@ var ENGLISH_WORDS = [
 function randomWord() {
   return ENGLISH_WORDS[Math.floor(Math.random() * ENGLISH_WORDS.length)];
 }
-
-export { randomWord };
+export { randomWord};
